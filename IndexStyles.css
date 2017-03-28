@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+
+}
+
+#play {
+width: 5pc;
+    height: 5pc;
+margin-top: 550px;
+    margin-left: 150px;
+position: absolute;
+}
+#winBtn {
+border-radius: 5px;
+    background-color: forestgreen;
+    color: white;
+    border-color: forestgreen;
+    position: absolute;margin-top: 300px;
+    margin-left: 450px;
+    width: 125px;
+    height: 75px;
+font-size: 16pt;
+
+}
+
+#dice {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 850px;
+    background:transparent;
+
+}
+#dice2 {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 480px;
+    background:transparent;
+}
+#fireworksCanvas {
+    background-color: #4e4e50;
+
+}
+.money {
+    color: white;
+}
+#prettify {
+
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 540px;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+}
+#rollHere {
+    text-align: center;
+
+}
+#btn_randRoll {
+    background-color: forestgreen;
+    border-radius: 5px;
+    border-color: forestgreen;
+    color: white;
+    position: absolute;
+    width: 125px;
+    height: 75px;
+    font-size: 12pt;
+    margin-left: 150px;
+    margin-top: 410px;
+
+}
+#moneyHead {
+position: absolute;
+   margin-left: 1150px;
+    margin-top: 400px;
+}
+#moneyTail {
+position: absolute;
+    margin-left: 1230px;
+    margin-top: 460px;
+}
+#currentMoneyTab {
+position: absolute;
+    margin-left: 1150px;
+    margin-top: 460px;
+}
+
+#motorHeadsUnite {
+    color: greenyellow;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 150px;
+}

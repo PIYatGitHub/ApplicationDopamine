@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta about="This is my Job Application - it is small, but I hope you enjoy it!">
+    <meta name="keywords" content="Gambler, Animation, JS, Motorhead - Ace of Spades, Job Application, Peter Yonkov" />.
+    <meta name="author" content="PIY">
+    <title>Gambler's Page</title>
+    <link rel="stylesheet" href="IndexStyles.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery.dice.js"> </script>
+
+</head>
+<body>
+<script type="text/javascript" src="Gambler.js">
+</script>
+
+
+<!--<input type="button" value="Win some" name="winBtn" id="winBtn" onclick="rollDices()"/> -->
+
+<div class="thumbnail" id="player">
+    <a class="playback" href="#" id="audioLink" >
+        <img id="play" src="Assets/play.png" onclick="playIt()" />
+    </a>
+    <audio id="motorHead">
+        <source src="Assets/Motorhead%20-%20Ace%20Of%20Spades.mp3" type="audio/mp3" />
+    </audio>
+</div>
+
+
+
+<h1 class = "money" id="moneyHead">Your Current Money Is: </h1> <h1 id = "currentMoneyTab" class="money"> 1000 </h1> <h1 class = "money" id="moneyTail"> $ </h1>
+
+<div id="dice"></div>
+<div id="dice2"></div>
+
+<br />
+<!-- <button type="button" id="btn_roll">Roll the dice to </button> -->
+<!-- <input type="text" id="rollValue" value = "5" />
+or
+-->
+<h3 id = "motorHeadsUnite"> The Ace of Spades!!!</h3>
+<button type="button" id="btn_randRoll" onclick="checkResult()">Roll Them Dices!</button>
+<!--
+<br />
+<button type="button" id="btn_setSize">Set the dice's size</button> to <input type="text" id="dsize" value="50" /> pixels!
+<br />
+<button type="button" id="btn_setDuration">Set the duration of dice rolling animation</button> to <input type="text" id="dur" value="500" /> milliseconds!
+-->
+<br />
+
+<div id="prettify">
+    <h1 class = "money" id="rollHere"> Roll them here ... </h1>
+
+</div>
+
+
+<script type="text/javascript" src="fireWorks.js"></script>
+
+</body>
+</html>
